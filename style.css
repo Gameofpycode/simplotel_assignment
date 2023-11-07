@@ -198,21 +198,25 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
+
 }
 .order .card .description p{
     font-size: 1.1em;
     margin-top: -10px;
     color: rgb(119, 115, 115);
-    margin: 0px 10px 0px 10px;
+    margin: 2px;
 }
 .order .order_btn{
     width: 250px;
-    height: 80px;
+    height: 60px;
     background-color: rgba(255, 255, 255, 0.555);
     border: none;
     border-radius: 50px;
     font-size: 1em;
-    text-transform: capitalize
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
