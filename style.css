@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1600px;
+    width: 90%;
+    margin: auto;
+}
+
+/* navbar css */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    color: #000;
+    height: 60px;
+    background-color: #fff;
+    top: 0px;
+    opacity: 0.8;
+    box-shadow: 0px 5px 10px 0px #aaa;
+    z-index: 12;
+    position: relative;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+
+}
+
+.menu-items {
+    display: flex;
+}
+
+
+.contact{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    margin-right: 20px;
+}
+.contact button{
+    height: 100%;
+    width: 50%;
+    font-size: 2em;
+    border: none;
+    background: none;
+    color: black;
+    
+}
+.fa-solid{
+    color: black;
+}
+
+.menu-items{
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-items li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    letter-spacing: 2px;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+
+/* hero section */
+
+.showcase-area{
+    height: 90vh;
+    background: url('https://ik.imagekit.io/6xlvknckc/img1.jpg?updatedAt=1699359680941');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 100px;
+}
+.showcase-container{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgba(211, 62, 94, 0.438);
+    padding: 20px 100px 20px 50px;
+    
+}
+.showcase-container .main-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+/* end */
+
+/* order section */
+.order{
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: linear-gradient(0.25turn, rgb(240, 116, 229) ,yellow);
+    padding: 100px 30px;
+}
+.order .header{
+    font-size:3em;
+    letter-spacing: 4px;
+    color: #fff;
+    margin: 0;
+} 
+.order .card-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0px 30px 0px;
+}
+
+.order .card{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0px 60px 0px 60px;
+    
+}
+.order .card .img{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 0px 50px 0px 0px ;
+}
+.order .card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order .card .description{
+    min-height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    text-align: center;
+    padding:2px;
+    
+}
+.order .card .description h1{
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.order .card .description p{
+    font-size: 1.1em;
+    margin-top: -10px;
+    color: rgb(119, 115, 115);
+    margin: 0px 10px 0px 10px;
+}
+.order .order_btn{
+    width: 250px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    text-transform: capitalize
+
+
+}
+
+
+
+
